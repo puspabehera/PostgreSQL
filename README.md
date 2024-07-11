@@ -13,7 +13,7 @@ o/p -[ 1:Raj:Sharma:IT ]
 ```
 
 select concat_ws(':', emp_id, CONCAT_WS(' ', fname, lname), dept) from employees
-where emp_id = 1; 
+where emp_id = 1;  
 
 o/p - [ 1:Raj Sharma:IT ]
 
