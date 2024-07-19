@@ -19,3 +19,10 @@ o/p - [ 1:Raj Sharma:IT ]
 
 ```
 
+<h3>CONCAT () Function</h3>
+
+```
+Select cast( @number as varchar )+ ' * ' + cast( @count as varchar) + ' = ' +cast(@number * @count as varchar);
+
+```
+
