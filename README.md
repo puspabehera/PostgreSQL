@@ -6,7 +6,7 @@ Going to cover all PostgreSQL topic in depth
 Select concat_ws (':' , emp_id, fname, lname, dept) from employees
 where emp_id = 1;
 
-o/p -[ 1:Raj:Sharma:IT ]
+o/p -[ 1:Raj:Sharma:IT ] 
 
 ```
 <h3>CONCAT_WS() Inside CONCAT_WS() Function</h3>
