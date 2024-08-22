@@ -4,7 +4,7 @@ Going to cover all PostgreSQL topic in depth
 
 ```
 Select concat_ws (':' , emp_id, fname, lname, dept) from employees
-where emp_id = 1;
+where emp_id = 1; 
 
 o/p -[ 1:Raj:Sharma:IT ] 
 
